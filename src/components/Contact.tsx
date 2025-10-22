@@ -9,10 +9,11 @@ import { toast } from "sonner";
 import emailjs from "@emailjs/browser";
 import { z } from "zod";
 
+
 // EmailJS Configuration
-const EMAILJS_PUBLIC_KEY = "meAPgoMdNRose-LHw";
-const EMAILJS_SERVICE_ID = "service_2ttka69";
-const EMAILJS_TEMPLATE_ID = "template_8le879i";
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
 
 // Validation Schema
 const contactSchema = z.object({
@@ -52,7 +53,7 @@ const Contact = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: "mekdes@example.com" // Replace with your email
+          to_email: "mekdes@example.com" 
         },
         EMAILJS_PUBLIC_KEY
       );
@@ -71,19 +72,19 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/Mekd422",
       color: "hover:text-foreground"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/mekdes-assefa-44b94a31b/",
       color: "hover:text-accent"
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:mekdes@example.com",
+      url: "mailto:mekdesassefa715@gmail.com",
       color: "hover:text-primary"
     }
   ];
@@ -175,16 +176,6 @@ const Contact = () => {
                   </a>
                 ))}
               </div>
-            </Card>
-
-            <Card className="p-8 shadow-card gradient-card">
-              <h3 className="text-xl font-semibold mb-3">Quick Facts</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>📍 Based in Ethiopia</li>
-                <li>🎓 4th Year Software Engineering Student</li>
-                <li>💼 Open to opportunities</li>
-                <li>🚀 Passionate about innovation</li>
-              </ul>
             </Card>
           </div>
         </div>

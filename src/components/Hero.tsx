@@ -41,34 +41,23 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-5xl mx-auto">
-          {/* Badge */}
-          <div className="mb-6 animate-fade-in flex justify-center">
-            <Badge className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/20 hover:bg-primary/20 transition-smooth">
-              <Sparkles className="w-4 h-4 mr-2" />
-              Available for Opportunities
-            </Badge>
-          </div>
 
           {/* Main Heading */}
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 animate-fade-in-up bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-            Mekdes Assefa
-          </h1>
+          
+          <h2 className="text-6xl md:text-6xl font-bold mb-6 animate-fade-in-up bg-gradient-to-r  bg-clip-text  bg-[length:200%_auto] animate-gradient">
+            Hi, I'm <span className="font-bold text-primary">Mekdes</span> Assefa
+          </h2>
 
           {/* Subtitle with Typing Effect Style */}
-          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <p className="text-2xl md:text-4xl font-semibold text-foreground mb-2">
-              Software Engineering Student
-            </p>
-            <p className="text-xl md:text-2xl text-muted-foreground">
-              & Web Developer
-            </p>
+          <div className="w-full animate-fade-in flex justify-center" >
+            <p className=" max-w-3xl text-xl md:text-2xl text-muted-foreground  text-center">
+  I’m passionate about building powerful, user-focused web applications using <strong>React</strong>, <strong>Node.js</strong>, and now expanding into <strong>Angular</strong> & <strong>ASP.NET Core</strong>.  
+    I love turning complex ideas into clean, scalable, and intuitive digital experiences.
+    <br />
+    <br />
+  </p>
+            
           </div>
-
-          {/* Description */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Passionate about crafting innovative solutions that make a real impact. 
-            Specializing in full-stack development with modern technologies.
-          </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in" style={{ animationDelay: '0.6s' }}>
@@ -95,7 +84,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <a
-              href="https://github.com"
+              href="https://github.com/Mekd422"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary/10 transition-smooth hover:scale-110 shadow-soft hover:shadow-card group"
@@ -103,7 +92,7 @@ const Hero = () => {
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-smooth" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mekdes-assefa-44b94a31b/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-accent/10 transition-smooth hover:scale-110 shadow-soft hover:shadow-card group"
@@ -111,7 +100,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-smooth" />
             </a>
             <a
-              href="mailto:mekdes@example.com"
+              href="mailto:mekdesassefa715@gmail.com"
               className="p-3 rounded-full bg-card hover:bg-primary/10 transition-smooth hover:scale-110 shadow-soft hover:shadow-card group"
             >
               <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-smooth" />

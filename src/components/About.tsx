@@ -30,14 +30,14 @@ const About = () => {
           
           <Card className="p-8 shadow-card hover:shadow-hover transition-smooth mb-12 gradient-card animate-scale-in">
             <p className="text-lg text-foreground leading-relaxed mb-6">
-              I'm a 4th-year Software Engineering student with a strong passion for building impactful 
-              projects that serve the community. My journey in tech is driven by curiosity and a desire 
-              to create meaningful solutions that make a difference.
+              I am a passionate software developer dedicated to building impactful and innovative solutions. My work is driven 
+              by curiosity and a commitment to creating applications that deliver meaningful experiences and solve real-world problems.
+
             </p>
             <p className="text-lg text-foreground leading-relaxed">
-              With expertise in React, Express.js, NestJS, Node.js, and Flutter, I love bringing ideas 
-              to life through clean code and intuitive user experiences. Whether it's a web application 
-              or a mobile solution, I'm always excited to tackle new challenges and learn emerging technologies.
+              With expertise in React, Express.js, NestJS, Node.js, and Flutter, I specialize in developing scalable web and mobile 
+              applications with clean, maintainable code and intuitive user interfaces. I thrive on tackling challenging projects, learning emerging technologies, 
+              and transforming ideas into practical, high-quality software solutions.
             </p>
           </Card>
 

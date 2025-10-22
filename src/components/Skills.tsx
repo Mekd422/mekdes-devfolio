@@ -23,7 +23,7 @@ const Skills = () => {
     {
       category: "Mobile",
       icon: Smartphone,
-      skills: ["Flutter", "React Native", "Firebase"]
+      skills: ["Flutter", "React Native"]
     },
     {
       category: "Database",

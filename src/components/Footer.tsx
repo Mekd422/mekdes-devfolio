@@ -6,9 +6,6 @@ const Footer = () => {
           <p className="text-muted-foreground">
             © 2025 Mekdes Assefa. All rights reserved.
           </p>
-          <p className="text-sm text-muted-foreground mt-2">
-            Built with React, TypeScript, and TailwindCSS
-          </p>
         </div>
       </div>
     </footer>

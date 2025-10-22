@@ -8,42 +8,21 @@ const Projects = () => {
       title: "Real-Time Chat Application",
       description: "A full-featured chat app with real-time messaging, user authentication, and group conversations built with React and Socket.io.",
       tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "#",
+      github: "https://github.com/Mekd422/Chat-App",
       demo: "#"
     },
     {
       title: "AI Interview Prep Platform",
       description: "An intelligent platform that helps candidates prepare for interviews with AI-generated questions and feedback.",
       tech: ["React", "NestJS", "OpenAI API", "PostgreSQL"],
-      github: "#",
+      github: "https://github.com/Mekd422/Interview-prep-AI",
       demo: "#"
     },
     {
-      title: "Church Management System",
-      description: "A comprehensive web solution for church administration, event management, and member communication.",
-      tech: ["Angular", "ASP.NET Core", "PostgreSQL"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "E-Commerce Mobile App",
-      description: "Cross-platform mobile shopping app with product catalog, cart functionality, and secure payments.",
-      tech: ["Flutter", "Firebase", "Stripe"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Task Management Dashboard",
-      description: "Modern project management tool with kanban boards, team collaboration, and progress tracking.",
-      tech: ["React", "Express.js", "MongoDB", "TypeScript"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Portfolio CMS",
-      description: "Content management system built for developers to easily manage and update their portfolio websites.",
-      tech: ["React", "Node.js", "PostgreSQL", "TailwindCSS"],
-      github: "#",
+      title: "MovieMingle",
+      description: "Discover the latest trending movies, explore hidden gems, and stay updated with what’s hot in the world of cinema.",
+      tech: ["React Native", "Express.js", "Firebase"],
+      github: "https://github.com/Mekd422/Movie_App",
       demo: "#"
     }
   ];
