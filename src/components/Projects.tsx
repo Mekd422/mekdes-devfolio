@@ -67,12 +67,12 @@ const Projects = () => {
                       Code
                     </a>
                   </Button>
-                  <Button variant="default" size="sm" asChild>
+                  {/* <Button variant="default" size="sm" asChild>
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
                     </a>
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>
