@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Real-Time Chat Application",
-      image: "/src/assets/chat-app.png",
+      image: "/images/chat-app.png",
       description: "A full-featured chat app with real-time messaging, user authentication, and group conversations built with React and Socket.io.",
       tech: ["React", "Node.js", "Socket.io", "MongoDB"],
       github: "https://github.com/Mekd422/Chat-App",
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: "AI Interview Prep Platform",
-      image: "/src/assets/interview-prep.png",
+      image: "/images/interview-prep.png",
       description: "An intelligent platform that helps candidates prepare for interviews with AI-generated questions and feedback.",
       tech: ["React", "NestJS", "OpenAI API", "PostgreSQL"],
       github: "https://github.com/Mekd422/Interview-prep-AI",
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "MovieMingle",
-      image: "/src/assets/movie-app.jpg",
+      image: "/images/movie-app.jpg",
       description: "Discover the latest trending movies, explore hidden gems, and stay updated with what’s hot in the world of cinema.",
       tech: ["React Native", "Express.js", "Firebase"],
       github: "https://github.com/Mekd422/Movie_App",
