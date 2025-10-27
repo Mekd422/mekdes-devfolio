@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +39,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
+          
           <a 
             href="#home" 
             onClick={(e) => {
@@ -46,9 +48,8 @@ const Navigation = () => {
             }}
             className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
           >
-            MA
+            Mekdes Assefa 
           </a>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
@@ -77,6 +78,7 @@ const Navigation = () => {
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
+        <ThemeToggle />
 
         {/* Mobile Navigation */}
         {isOpen && (
@@ -99,6 +101,7 @@ const Navigation = () => {
           </div>
         )}
       </div>
+      
     </nav>
   );
 };
